@@ -15,13 +15,14 @@ The 32-bit comparator is a digital circuit designed to compare two 32-bit binary
 ## Files
 
 Description of each file in the repository:
-<br>-Design Files
+<br>
+Design Files
 <br>
 - **`comp_32b.v`**: Verilog implementation of the 32-bit comparator.
 <br>
--Testbench and Verification Files
+Testbench and Verification Files
 <br>
-<p>
+
 - **`top.sv`**: Top-level module that integrates the 32-bit comparator and the testbench.<br>
 - **`comp_tb.sv`**: Testbench module for the 32-bit comparator.<br>
 - **`comp_int.sv`**: Interface definition for the 32-bit comparator.<br>
@@ -33,7 +34,7 @@ Description of each file in the repository:
 - **`comp_gen.sv`**: Random test case generator for the comparator.<br>
 - **`comp_cfg.sv`**: Configuration class for setting up the test environment.<br>
 - **`comp_tx.sv`**: Transaction class for handling and generating input values.<br>
-</p>
+
 <br>
 
 # Input Vectors & Result of 32 - Bit Comparator:
